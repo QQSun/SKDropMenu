@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50F6DC421FD7B92B00C9EA6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6DC411FD7B92B00C9EA6A /* AppDelegate.m */; };
+		50F6DC451FD7B92B00C9EA6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6DC441FD7B92B00C9EA6A /* ViewController.m */; };
+		50F6DC481FD7B92B00C9EA6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F6DC461FD7B92B00C9EA6A /* Main.storyboard */; };
+		50F6DC4A1FD7B92B00C9EA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F6DC491FD7B92B00C9EA6A /* Assets.xcassets */; };
+		50F6DC4D1FD7B92B00C9EA6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F6DC4B1FD7B92B00C9EA6A /* LaunchScreen.storyboard */; };
+		50F6DC501FD7B92B00C9EA6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6DC4F1FD7B92B00C9EA6A /* main.m */; };
+		50F6DC5A1FD7B92B00C9EA6A /* SKDropMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6DC591FD7B92B00C9EA6A /* SKDropMenuTests.m */; };
+		50F6DC651FD7B92B00C9EA6A /* SKDropMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6DC641FD7B92B00C9EA6A /* SKDropMenuUITests.m */; };
+		50F6DC741FD7BC4700C9EA6A /* UIButton+DropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6DC731FD7BC4700C9EA6A /* UIButton+DropMenu.m */; };
+		50F6DC7A1FD7C08D00C9EA6A /* SKDropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6DC791FD7C08D00C9EA6A /* SKDropMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50F6DC561FD7B92B00C9EA6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50F6DC351FD7B92B00C9EA6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F6DC3C1FD7B92B00C9EA6A;
+			remoteInfo = SKDropMenu;
+		};
+		50F6DC611FD7B92B00C9EA6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50F6DC351FD7B92B00C9EA6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F6DC3C1FD7B92B00C9EA6A;
+			remoteInfo = SKDropMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50F6DC3D1FD7B92B00C9EA6A /* SKDropMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKDropMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F6DC401FD7B92B00C9EA6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50F6DC411FD7B92B00C9EA6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50F6DC431FD7B92B00C9EA6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50F6DC441FD7B92B00C9EA6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50F6DC471FD7B92B00C9EA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50F6DC491FD7B92B00C9EA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50F6DC4C1FD7B92B00C9EA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50F6DC4E1FD7B92B00C9EA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F6DC4F1FD7B92B00C9EA6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50F6DC551FD7B92B00C9EA6A /* SKDropMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKDropMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F6DC591FD7B92B00C9EA6A /* SKDropMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDropMenuTests.m; sourceTree = "<group>"; };
+		50F6DC5B1FD7B92B00C9EA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F6DC601FD7B92B00C9EA6A /* SKDropMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKDropMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F6DC641FD7B92B00C9EA6A /* SKDropMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDropMenuUITests.m; sourceTree = "<group>"; };
+		50F6DC661FD7B92B00C9EA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F6DC721FD7BC4700C9EA6A /* UIButton+DropMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+DropMenu.h"; sourceTree = "<group>"; };
+		50F6DC731FD7BC4700C9EA6A /* UIButton+DropMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DropMenu.m"; sourceTree = "<group>"; };
+		50F6DC781FD7C08D00C9EA6A /* SKDropMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKDropMenu.h; sourceTree = "<group>"; };
+		50F6DC791FD7C08D00C9EA6A /* SKDropMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDropMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F6DC3A1FD7B92B00C9EA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F6DC521FD7B92B00C9EA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F6DC5D1FD7B92B00C9EA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		500DE3321FD8F36B006F9FE0 /* SKDropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				50F6DC721FD7BC4700C9EA6A /* UIButton+DropMenu.h */,
+				50F6DC731FD7BC4700C9EA6A /* UIButton+DropMenu.m */,
+				50F6DC781FD7C08D00C9EA6A /* SKDropMenu.h */,
+				50F6DC791FD7C08D00C9EA6A /* SKDropMenu.m */,
+			);
+			path = SKDropMenu;
+			sourceTree = "<group>";
+		};
+		50F6DC341FD7B92B00C9EA6A = {
+			isa = PBXGroup;
+			children = (
+				50F6DC3F1FD7B92B00C9EA6A /* SKDropMenu */,
+				50F6DC581FD7B92B00C9EA6A /* SKDropMenuTests */,
+				50F6DC631FD7B92B00C9EA6A /* SKDropMenuUITests */,
+				50F6DC3E1FD7B92B00C9EA6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50F6DC3E1FD7B92B00C9EA6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F6DC3D1FD7B92B00C9EA6A /* SKDropMenu.app */,
+				50F6DC551FD7B92B00C9EA6A /* SKDropMenuTests.xctest */,
+				50F6DC601FD7B92B00C9EA6A /* SKDropMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F6DC3F1FD7B92B00C9EA6A /* SKDropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				50F6DC401FD7B92B00C9EA6A /* AppDelegate.h */,
+				50F6DC411FD7B92B00C9EA6A /* AppDelegate.m */,
+				50F6DC431FD7B92B00C9EA6A /* ViewController.h */,
+				50F6DC441FD7B92B00C9EA6A /* ViewController.m */,
+				50F6DC461FD7B92B00C9EA6A /* Main.storyboard */,
+				50F6DC491FD7B92B00C9EA6A /* Assets.xcassets */,
+				50F6DC4B1FD7B92B00C9EA6A /* LaunchScreen.storyboard */,
+				50F6DC4E1FD7B92B00C9EA6A /* Info.plist */,
+				50F6DC4F1FD7B92B00C9EA6A /* main.m */,
+				500DE3321FD8F36B006F9FE0 /* SKDropMenu */,
+			);
+			path = SKDropMenu;
+			sourceTree = "<group>";
+		};
+		50F6DC581FD7B92B00C9EA6A /* SKDropMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				50F6DC591FD7B92B00C9EA6A /* SKDropMenuTests.m */,
+				50F6DC5B1FD7B92B00C9EA6A /* Info.plist */,
+			);
+			path = SKDropMenuTests;
+			sourceTree = "<group>";
+		};
+		50F6DC631FD7B92B00C9EA6A /* SKDropMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50F6DC641FD7B92B00C9EA6A /* SKDropMenuUITests.m */,
+				50F6DC661FD7B92B00C9EA6A /* Info.plist */,
+			);
+			path = SKDropMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F6DC3C1FD7B92B00C9EA6A /* SKDropMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F6DC691FD7B92B00C9EA6A /* Build configuration list for PBXNativeTarget "SKDropMenu" */;
+			buildPhases = (
+				50F6DC391FD7B92B00C9EA6A /* Sources */,
+				50F6DC3A1FD7B92B00C9EA6A /* Frameworks */,
+				50F6DC3B1FD7B92B00C9EA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKDropMenu;
+			productName = SKDropMenu;
+			productReference = 50F6DC3D1FD7B92B00C9EA6A /* SKDropMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50F6DC541FD7B92B00C9EA6A /* SKDropMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F6DC6C1FD7B92B00C9EA6A /* Build configuration list for PBXNativeTarget "SKDropMenuTests" */;
+			buildPhases = (
+				50F6DC511FD7B92B00C9EA6A /* Sources */,
+				50F6DC521FD7B92B00C9EA6A /* Frameworks */,
+				50F6DC531FD7B92B00C9EA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F6DC571FD7B92B00C9EA6A /* PBXTargetDependency */,
+			);
+			name = SKDropMenuTests;
+			productName = SKDropMenuTests;
+			productReference = 50F6DC551FD7B92B00C9EA6A /* SKDropMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50F6DC5F1FD7B92B00C9EA6A /* SKDropMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F6DC6F1FD7B92B00C9EA6A /* Build configuration list for PBXNativeTarget "SKDropMenuUITests" */;
+			buildPhases = (
+				50F6DC5C1FD7B92B00C9EA6A /* Sources */,
+				50F6DC5D1FD7B92B00C9EA6A /* Frameworks */,
+				50F6DC5E1FD7B92B00C9EA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F6DC621FD7B92B00C9EA6A /* PBXTargetDependency */,
+			);
+			name = SKDropMenuUITests;
+			productName = SKDropMenuUITests;
+			productReference = 50F6DC601FD7B92B00C9EA6A /* SKDropMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50F6DC351FD7B92B00C9EA6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "筇琼";
+				TargetAttributes = {
+					50F6DC3C1FD7B92B00C9EA6A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					50F6DC541FD7B92B00C9EA6A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50F6DC3C1FD7B92B00C9EA6A;
+					};
+					50F6DC5F1FD7B92B00C9EA6A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50F6DC3C1FD7B92B00C9EA6A;
+					};
+				};
+			};
+			buildConfigurationList = 50F6DC381FD7B92B00C9EA6A /* Build configuration list for PBXProject "SKDropMenu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50F6DC341FD7B92B00C9EA6A;
+			productRefGroup = 50F6DC3E1FD7B92B00C9EA6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F6DC3C1FD7B92B00C9EA6A /* SKDropMenu */,
+				50F6DC541FD7B92B00C9EA6A /* SKDropMenuTests */,
+				50F6DC5F1FD7B92B00C9EA6A /* SKDropMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F6DC3B1FD7B92B00C9EA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F6DC4D1FD7B92B00C9EA6A /* LaunchScreen.storyboard in Resources */,
+				50F6DC4A1FD7B92B00C9EA6A /* Assets.xcassets in Resources */,
+				50F6DC481FD7B92B00C9EA6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F6DC531FD7B92B00C9EA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F6DC5E1FD7B92B00C9EA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F6DC391FD7B92B00C9EA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F6DC451FD7B92B00C9EA6A /* ViewController.m in Sources */,
+				50F6DC741FD7BC4700C9EA6A /* UIButton+DropMenu.m in Sources */,
+				50F6DC7A1FD7C08D00C9EA6A /* SKDropMenu.m in Sources */,
+				50F6DC501FD7B92B00C9EA6A /* main.m in Sources */,
+				50F6DC421FD7B92B00C9EA6A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F6DC511FD7B92B00C9EA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F6DC5A1FD7B92B00C9EA6A /* SKDropMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F6DC5C1FD7B92B00C9EA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F6DC651FD7B92B00C9EA6A /* SKDropMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50F6DC571FD7B92B00C9EA6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F6DC3C1FD7B92B00C9EA6A /* SKDropMenu */;
+			targetProxy = 50F6DC561FD7B92B00C9EA6A /* PBXContainerItemProxy */;
+		};
+		50F6DC621FD7B92B00C9EA6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F6DC3C1FD7B92B00C9EA6A /* SKDropMenu */;
+			targetProxy = 50F6DC611FD7B92B00C9EA6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50F6DC461FD7B92B00C9EA6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F6DC471FD7B92B00C9EA6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50F6DC4B1FD7B92B00C9EA6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F6DC4C1FD7B92B00C9EA6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50F6DC671FD7B92B00C9EA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50F6DC681FD7B92B00C9EA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F6DC6A1FD7B92B00C9EA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXBRKCTETE;
+				INFOPLIST_FILE = SKDropMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiongqiong.com.SKDropMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50F6DC6B1FD7B92B00C9EA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXBRKCTETE;
+				INFOPLIST_FILE = SKDropMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiongqiong.com.SKDropMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50F6DC6D1FD7B92B00C9EA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXBRKCTETE;
+				INFOPLIST_FILE = SKDropMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiongqiong.com.SKDropMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKDropMenu.app/SKDropMenu";
+			};
+			name = Debug;
+		};
+		50F6DC6E1FD7B92B00C9EA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXBRKCTETE;
+				INFOPLIST_FILE = SKDropMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiongqiong.com.SKDropMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKDropMenu.app/SKDropMenu";
+			};
+			name = Release;
+		};
+		50F6DC701FD7B92B00C9EA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXBRKCTETE;
+				INFOPLIST_FILE = SKDropMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiongqiong.com.SKDropMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKDropMenu;
+			};
+			name = Debug;
+		};
+		50F6DC711FD7B92B00C9EA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXBRKCTETE;
+				INFOPLIST_FILE = SKDropMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiongqiong.com.SKDropMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKDropMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F6DC381FD7B92B00C9EA6A /* Build configuration list for PBXProject "SKDropMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F6DC671FD7B92B00C9EA6A /* Debug */,
+				50F6DC681FD7B92B00C9EA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F6DC691FD7B92B00C9EA6A /* Build configuration list for PBXNativeTarget "SKDropMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F6DC6A1FD7B92B00C9EA6A /* Debug */,
+				50F6DC6B1FD7B92B00C9EA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F6DC6C1FD7B92B00C9EA6A /* Build configuration list for PBXNativeTarget "SKDropMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F6DC6D1FD7B92B00C9EA6A /* Debug */,
+				50F6DC6E1FD7B92B00C9EA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F6DC6F1FD7B92B00C9EA6A /* Build configuration list for PBXNativeTarget "SKDropMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F6DC701FD7B92B00C9EA6A /* Debug */,
+				50F6DC711FD7B92B00C9EA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50F6DC351FD7B92B00C9EA6A /* Project object */;
+}
